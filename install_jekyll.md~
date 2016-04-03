@@ -5,4 +5,3 @@ description: ""
 ---
 {% include JB/setup %}
 
-"jekyll serve 时出现端口占用错误，找了半天发现是foxit阅读器的某个服务占用了4000端口，关闭该服务就正常了。。。"

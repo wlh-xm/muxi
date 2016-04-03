@@ -38,6 +38,10 @@ When you don't need the samples anymore just delete the `_posts/core-samples` fo
   {% endfor %}
 </ul>
 
+### 一些有用的网站链接
+http://jekyll.bootcss.com/docs/github-pages/
+http://www.tuicool.com/articles/Yr6RjuJ
+
 ### To-Do
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
