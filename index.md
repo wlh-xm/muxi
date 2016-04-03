@@ -39,8 +39,10 @@ When you don't need the samples anymore just delete the `_posts/core-samples` fo
 </ul>
 
 ### 一些有用的网站链接
+
 http://jekyll.bootcss.com/docs/github-pages/
 http://www.tuicool.com/articles/Yr6RjuJ
+http://www.thomaszhao.cn/2015/01/08/how-do-i-build-this-jekyll-blog/
 
 ### To-Do
 
