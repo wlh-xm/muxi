@@ -1,0 +1,22 @@
+---
+layout: post
+title: "一些BIOS相关知识"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+# ORIGIN 0x07C00h
+-BIOS或者其他bootloader软件是用来初始化硬件的最底层软件（之后引导启动操作系统），计算机启动后最先被执行。存放BIOS的ROM与内存芯片RAM统一编址，这样，开机后从x0h开始执行，这个即是BIOS起始地址，这段空间是很小的，不能容纳操作系统等大型程序。操作系统通常放在硬盘中，但如果没有BIOS初始化，硬盘都不能使用，因此，首先启动BIOS完成硬件初始化，然后把控制权交给操作系统（一般不是给操作系统，而是另一个引导程序bootloader，如ntldr，grub等等）。
+
+-硬盘引导扇区（boot sector）末尾，即0x07DFE处以0xAA55结束。
+
+-BIOS将硬盘的第一扇区（boot sector）读入内存的07C00h处，并检查0x7DFE（第一扇区大小为512bytes）处的内容是否为0xAA55，如果匹配，则指针跳转到0x7C00h处执行MBR，MBR接着从分区表中找到第一个活动分区，然后按照类似的方法执行这个活动分区的引导扇区（partition boot sector），这个活动分区的引导扇区负责读取执行NTLDR或者GRUB之类的引导程序，之后控制权交给操作系统。
+
+-读写硬盘指令：1F0H-1F7H
+
+legacy bios一般用MASM 6.11开发,同时还会配上一些厂商自己写的buid tools. EFI则使用Viusal Studio.NET 2003以及MASM 6.11开发
+
+EFI有自己独特的boot方式,完全抛弃掉了传统的0磁道0扇区的MBR概念.EFI的boot方式与文件系统息息相关.过去的legacy bios由于不带文件系统,不得已选择从硬盘上特定空间装载程序的办法,而EFI则附带了完整的文件系统支持,所以不再对硬盘有特定的要求,EFI下的操 作系统加载程序事实上存储在boot\ia32\bootia32.efi文件里.(假定是IA32架构).这是一个EFI应用程序.
+
+
