@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Install Jekyll"
+title: "安装 Jekyll"
 description: ""
 ---
 {% include JB/setup %}

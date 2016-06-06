@@ -19,13 +19,11 @@ tagline: 小明从小伴随我们成长。。。
 
 ### 一些有用的网站链接
 
-http://jekyll.bootcss.com/docs/github-pages/
-http://www.tuicool.com/articles/Yr6RjuJ
-http://www.thomaszhao.cn/2015/01/08/how-do-i-build-this-jekyll-blog/
+[http://jekyll.bootcss.com/docs/github-pages/](http://jekyll.bootcss.com/docs/github-pages/a)
 
-### To-Do
+[http://www.tuicool.com/articles/Yr6RjuJ](http://www.tuicool.com/articles/Yr6RjuJ)
 
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+[http://www.thomaszhao.cn/2015/01/08/how-do-i-build-this-jekyll-blog/](http://www.thomaszhao.cn/2015/01/08/how-do-i-build-this-jekyll-blog/)
+
 
 
