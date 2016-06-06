@@ -11,26 +11,9 @@ tagline: 小明从小伴随我们成长。。。
 
 ## 设置用户参数
 
-在 `_config.yml` 中更改:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
-
-如上。
     
 ## 样例发布
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
-
-    $ rm -rf _posts/core-samples
-
-这是一个样例 "posts list".
 
 <ul class="posts">
   {% for post in site.posts %}
@@ -43,6 +26,7 @@ When you don't need the samples anymore just delete the `_posts/core-samples` fo
 http://jekyll.bootcss.com/docs/github-pages/
 http://www.tuicool.com/articles/Yr6RjuJ
 http://www.thomaszhao.cn/2015/01/08/how-do-i-build-this-jekyll-blog/
+
 ### To-Do
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
