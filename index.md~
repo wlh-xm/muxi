@@ -9,11 +9,6 @@ tagline: 小明从小伴随我们成长。。。
 
 完全使用手册: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
-## 设置用户参数
-
-    
-## 样例发布
-
 
 <ul class="posts">
   {% for post in site.posts %}

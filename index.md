@@ -5,6 +5,7 @@ tagline: 小明从小伴随我们成长。。。
 ---
 {% include JB/setup %}
 ## 博客还在建设中。。。
+时间太短，只争朝夕。
 快速启动[Jekyll ](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
 完全使用手册: [Jekyll Bootstrap](http://jekyllbootstrap.com)
