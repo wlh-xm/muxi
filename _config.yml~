@@ -5,6 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
+
 # 博客文章名为中文时，需强制编码为utf8
 encoding: UTF-8
 
