@@ -6,8 +6,11 @@ category:
 tags: []
 ---
 {% include JB/setup %}
+
 1.注册多说账号，得到一个short_name。
+
 2.获得一段js代码，保存在_includes/JB/comments-providers下，并修改相关内容，注意确保short_name为注册时得到的。
+
 3.更改_config.yml文件中相应的位置。
 
 
