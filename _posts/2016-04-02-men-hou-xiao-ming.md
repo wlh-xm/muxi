@@ -2,9 +2,13 @@
 layout: post
 title: "站点开端。。。"
 description: ""
-category: 
+category:  
 tags: []
 ---
 {% include JB/setup %}
-一些命令：
+
+    一些命令：
 	rake post title="..."
+
+
+    jekyll中文支持堪忧啊。。。

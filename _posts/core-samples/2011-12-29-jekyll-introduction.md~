@@ -160,7 +160,6 @@ jekyll希望你的网站目录如下布局：
 	This folder is not part of the standard jekyll structure.
 	The assets folder represents _any generic_ folder you happen to create in your root directory.
 	Directories and files not properly formatted for jekyll will be left untouched for you to serve normally.
-	该目录不是标准jekyll结构，该文件夹表示任何通用文件夹，这些文件夹发生创建在你的根目录。
 
 (read more: <https://github.com/mojombo/jekyll/wiki/Usage>)
 
