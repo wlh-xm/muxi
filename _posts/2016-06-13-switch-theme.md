@@ -1,0 +1,20 @@
+---
+layout: post
+title: "更换主题，复习一次"
+description: ""
+category: 
+tags: []
+---
+{% include JB/setup %}
+
+
+安装主题：
+	rake theme:install git="https://github.com/jekyllbootstrap/theme-the-program.git"
+
+**也可手工把主题放入/_theme_packages,之后运行rake theme:install name="theme"**
+
+切换主题：
+	rake theme:switch name="the-program
+
+
+##很有用的命令rake，所有的动作定义在根目录中的rakefile，如有需要，可以更改它。。。

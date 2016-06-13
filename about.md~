@@ -1,6 +1,10 @@
 ---
 layout: page
 title: "About"
-description: ""
+description: "小明的---------"
+group: navigation
 ---
 {% include JB/setup %}
+
+
+三分钟热度的小明，不确定不一定不肯定这个博客会写写写。。。
