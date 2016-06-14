@@ -219,7 +219,7 @@ body {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size:14px;
 	line-height:1.428571429;
-	color:#FF0000;
+	/*color:#FF0000; xuming  modified 0614*/
 	background-color:#fff
 }
 input,button,select,textarea {
@@ -5233,7 +5233,7 @@ th.hidden-lg,td.hidden-lg {
 	}
 }
 
-/*xuming 添加0607*/
+/*xuming 添加0607
 #ds-reset .ds-avatar img {
   width: 54px !important;
   height: 54px !important;
@@ -5249,3 +5249,4 @@ th.hidden-lg,td.hidden-lg {
   -moz-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
 }
+*/
