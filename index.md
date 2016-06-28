@@ -1,21 +1,22 @@
 ---
 layout: page
-title: 小明的 - blog
-tagline: 小明从小伴随我们成长。。。
+title: 小明的 - BLOG
+tagline: 做事只有三分钟热度的小明。。。
 ---
 {% include JB/setup %}
-## 博客还在建设中。。。
-时间太短，只争朝夕。
-快速启动[Jekyll ](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
-
-完全使用手册: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
+## Under Construction...
 
 <ul class="posts">
   {% for post in site.posts %}
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
+
+时间太短，只争朝夕。
+
+快速启动[Jekyll ](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+
+完全使用手册: [Jekyll Bootstrap](http://jekyllbootstrap.com)
 
 ### 一些有用的网站链接
 
