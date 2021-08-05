@@ -1,6 +1,6 @@
 <section class="comment">
 <script src="https://utteranc.es/client.js"
-          repo="wlh-xm/muxi"
+          repo="wlh-xm/blogComments"
           issue-term="pathname"
           theme="github-light"
           crossorigin="anonymous"
