@@ -82,7 +82,7 @@ JB :
   # Set 'provider' to false to turn commenting off globally.
   #
   comments :
-    provider : duoshuo
+    provider : uttrances
     duoshuo :
       short_name : muxi   # 需与多说系统注册名一致
    
